@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Faculty+Glyphic&family=Reenie+Beanie&display=swap');
+
+:root {
+    --cor0: #00FFF9;
+    --cor1: #29CCC9;
+    --cor2: #3D9997;
+    --cor3: #3D6665;
+    --cor4: #293333;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: "Faculty Glyphic", sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+}

@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Faculty+Glyphic&family=Reenie+Beanie&display=swap');
 
 :root {
-    --cor0: #00FFF9;
+    --cor0: #00fffb;
     --cor1: #29CCC9;
     --cor2: #3D9997;
     --cor3: #3D6665;
@@ -21,4 +21,33 @@
 body {
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
+    min-height: 100px;
+    padding-top: 30px;
+}
+
+header > h1 {
+    color: var(--cor1);
+    font-family: var(--fonte-destaque);
+    padding-left: 20px;
+    padding-top: 30px;
+    font-size: 3em;
+}
+
+nav {
+    background-color: var(--cor4);
+    padding: 10px;
+    box-shadow: 0px 9px 10px rgba(0, 0, 0, 0.397);
+}
+
+nav > a {
+    color: var(--cor1);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0.5s;
 }

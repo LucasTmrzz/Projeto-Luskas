@@ -51,3 +51,14 @@ nav > a {
     border-radius: 5px;
     transition-duration: 0.5s;
 }
+
+.flex_top {
+    flex-direction: row;
+}
+
+.flex_top > article {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin: 50px;
+}

@@ -1,64 +1,26 @@
-@charset "UTF-8";
-
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Faculty+Glyphic&family=Reenie+Beanie&display=swap');
-
-:root {
-    --cor0: #00fffb;
-    --cor1: #29CCC9;
-    --cor2: #3D9997;
-    --cor3: #3D6665;
-    --cor4: #293333;
-
-    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-destaque: "Faculty Glyphic", sans-serif;
-}
-
 * {
     margin: 0px;
     padding: 0px;
 }
 
-body {
-    background-color: var(--cor0);
-    font-family: var(--fonte-padrao);
-}
-
 header {
-    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
-    min-height: 100px;
-    padding-top: 30px;
+    background-color: aqua;
+    height: 150px;
 }
 
-header > h1 {
-    color: var(--cor1);
-    font-family: var(--fonte-destaque);
-    padding-left: 20px;
-    padding-top: 30px;
-    font-size: 3em;
+main {
+    display: flex;
 }
 
-nav {
-    background-color: var(--cor4);
-    padding: 10px;
-    box-shadow: 0px 9px 10px rgba(0, 0, 0, 0.397);
+article {
+    background-color: rgb(89, 0, 255);
+    margin: 10px 5px 10px 10px;
+    flex-grow: 2;
+    height: 500px;
 }
 
-nav > a {
-    color: var(--cor1);
-    padding: 10px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    transition-duration: 0.5s;
-}
-
-.flex_top {
-    flex-direction: row;
-}
-
-.flex_top > article {
-    width: 100px;
-    height: 100px;
-    background-color: white;
-    margin: 50px;
+aside {
+    background-color: rgb(110, 55, 55);
+    margin: 10px 10px 10px 5px;
+    flex-grow: 1;
 }
